@@ -110,6 +110,10 @@
 - Hub, Bridge e Switch
 - VLAN
 
+### Esercizi
+
+- Polinomio in $\mathbb{Z}_2$
+
 
 ## Importante!
 Questi appunti (e materiali in generale) non si pongono come alternativa ai materiali esposti a lezione, tantomeno alla frequenza stessa.
