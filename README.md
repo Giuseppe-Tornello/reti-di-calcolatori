@@ -136,4 +136,4 @@ In caso di errori importanti negli appunti, invito caldamente a mandarmi un mess
  </picture>
 </a>
 
-> Ispirato dalla repo di @TendTo
+> Ispirato dalla repo di [@TendTo](https://github.com/TendTo)
