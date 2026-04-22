@@ -126,3 +126,14 @@ In caso di errori importanti negli appunti, invito caldamente a mandarmi un mess
 
 - Protocollo BOOTP (Boostrap Protocol)
 - Protocollo RARP (Reverse ARP)
+
+### Star History
+<a href="https://www.star-history.com/?repos=boreddam%2Freti-di-calcolatori&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=boreddam/reti-di-calcolatori&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=boreddam/reti-di-calcolatori&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=boreddam/reti-di-calcolatori&type=date&legend=top-left" />
+ </picture>
+</a>
+
+> Ispirato dalla repo di @TendTo
