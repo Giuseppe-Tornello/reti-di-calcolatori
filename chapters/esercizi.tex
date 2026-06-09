@@ -1,0 +1,51 @@
+
+\chapter{Esercizi}
+
+\section{Polinomi}
+Calcola il resto $R(x)$ della seguente divisione polinomiale in $\mathbb{Z}^2$. 
+
+$$
+\frac{(x^5 + x + 1) (x^4 + x^2 + 1) + (x^2+1)}{(x^2 + x)}
+$$
+
+Facilitiamo l'esercizio suddividendolo in singoli polinomi.
+\begin{itemize}
+	\item $A(x) = (x^5 + x^1 + 1)$;
+	\item $B(x) = (x^4 + x^2 + 1)$;
+	\item $C(x) = (x^2 + 1)$;
+	\item $D(x) = (x^2 + x)$;
+\end{itemize}
+
+Svolgiamo le operazioni.
+\begin{enumerate}
+	\item $A(x) \cdot B(x) = (x^9 + \cancel{x^5} + x^4 + x^7 + x^3 + x^2 + \cancel{x^5} + x + 1)$
+	
+	\item $A(x) \cdot B(x) + C(x) = (x^9 + x^4 + x^7 + x^3 + \cancel{x^2} + x + \cancel{1}) +  (\cancel{x^2} +\cancel{1}) = (x^9 + x^7+ x^4 + x^3 + x)$. 
+	
+	Abbiamo letteralmente effettuato uno $XOR$. Chiameremo $E(x)$ il polinomio risultante.
+	
+	\item $E(x)/D(x)$. Facciamo delle osservazioni.
+	\begin{itemize}
+		\item $E(x) = \verb|1010011010|$
+		\item $D(x) = \verb|110|$
+	\end{itemize}
+	
+	Facciamo la divisione.
+	
+	\begin{verbatim}
+		1010011010  |
+		110         |
+		-------------
+		11         |
+		110        |
+		-------------
+		110    |
+		110    |
+		------------
+		10  | resto trovato
+	\end{verbatim}
+	
+	$R(x) = \verb|10| = 1\cdot x^1 + 0\cdot x^0 = x$;
+\end{enumerate}
+
+Soluzione: $R(x) = x$.

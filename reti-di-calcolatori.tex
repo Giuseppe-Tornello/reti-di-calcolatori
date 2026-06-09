@@ -1,0 +1,58 @@
+% TIPOLOGIA DI DOCUMENTO
+\documentclass{report}
+
+% PACCHETTI INSERITI 
+\usepackage{graphicx} % Per le immagini
+\usepackage{amsmath} % Simboli matematici
+\usepackage[hidelinks]{hyperref} % Collegamenti ipertestuali
+\usepackage{amssymb} % Simboli matematici 2
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{fancyvrb}
+\usepackage{cancel}
+
+\usepackage{geometry}
+\geometry{
+ a4paper,
+ total={160mm,260mm},
+ left=30mm,
+ top=18mm,
+}
+% RIDENOMINAZIONI
+\renewcommand{\chaptername}{Capitolo}
+\renewcommand{\contentsname}{Indice}
+\renewcommand{\figurename}{Immagine}
+\renewcommand{\tablename}{Tabella}
+% TITOLO, INDICE
+\title{\textbf{\Huge Reti di Calcolatori}\\ {\Large \textbf{\textit{Appunti del corso}}}}
+\author{ \textit{Damiano Trovato}}
+\date{Secondo semestre, anno 2024/25}
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+% APPUNTI VERI E PROPRI
+
+\include{./chapters/chapter0}
+\include{./chapters/chapter1}
+\include{./chapters/chapter2}
+\include{./chapters/chapter3}
+\include{./chapters/chapter4}
+\include{./chapters/chapter5}
+\include{./chapters/chapter6}
+\include{./chapters/esercizi}
+
+
+
+
+
+
+
+
+
+\end{document}
