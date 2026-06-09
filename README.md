@@ -1,5 +1,7 @@
 # Reti di Calcolatori
 
+Per accedere agli appunti, andare nella sezione "releases".
+
 ## Argomenti Trattati
 
 ### Introduzione alle reti di calcolatori
