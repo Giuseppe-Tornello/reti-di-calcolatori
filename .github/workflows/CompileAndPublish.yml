@@ -22,9 +22,6 @@ jobs:
           working_directory: .
           root_file: reti-di-calcolatori.tex
 
-      - name: Rename pdf
-        run: mv main.pdf reti-di-calcolatori.pdf
-
       - name: Create Release
         uses: softprops/action-gh-release@v3
         with:
